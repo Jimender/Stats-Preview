@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [](https://www.frontendmentor.io/solutions/stats-preview-Q5623RsOgE)
 - Live Site URL: [Stats-Preview](https://jimender.github.io/Stats-Preview/)
 
 ## My process
