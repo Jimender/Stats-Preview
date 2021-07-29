@@ -16,8 +16,6 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -60,7 +58,6 @@ Want to exlpore more about flexbox for better & optimal use cases.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@Jimender](https://www.frontendmentor.io/profile/Jimender)
 
 ## Acknowledgments
