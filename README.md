@@ -26,12 +26,12 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop](screen-shots/ss-1.png)
-![Mobile](screen-shots/ss-2.png)
+![Desktop](screen-shots/ss-1.jpg)
+![Mobile](screen-shots/ss-2.jpg)
 
 ### Links
 
-- Solution URL: [](https://www.frontendmentor.io/solutions/stats-preview-Q5623RsOgE)
+- Solution URL: [FrontEnd Mentor](https://www.frontendmentor.io/solutions/stats-preview-Q5623RsOgE)
 - Live Site URL: [Stats-Preview](https://jimender.github.io/Stats-Preview/)
 
 ## My process
