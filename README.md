@@ -39,12 +39,14 @@ Users should be able to:
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
+- Sass
 - Flexbox
+
+Fixed some minor media query bugs
 
 ### What I learned
 
-- Learned how to use `Flexbox` & `MediaQueries`.
+- Learned how to use basic level of `Flexbox` & `MediaQueries`.
 - Learned about `background-blend-mode` & `mix-blend-mode`
 
 ### Continued development
@@ -62,4 +64,4 @@ Want to exlpore more about flexbox for better & optimal use cases.
 
 ## Acknowledgments
 
-Thanks to [airdgo](https://github.com/airdgo/stats-preview)
+Thanks to [airdgo](https://github.com/airdgo/stats-preview) , [MRZ.Code.Manufacture](https://www.youtube.com/watch?v=zaHdmJf_ld4) for helping in flexbox & color matching.

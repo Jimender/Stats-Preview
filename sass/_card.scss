@@ -1,0 +1,135 @@
+.card {
+  max-width: 114rem;
+  display: flex;
+  justify-content: center;
+  background-color: $card-background;
+  border-radius: 1rem;
+  overflow: hidden;
+  margin: 6rem;
+
+  @include respond(tab-port) {
+    flex-direction: column-reverse;
+    max-width: 60%;
+    margin: 6rem 0;
+  }
+
+  @include respond(phone-mid) {
+    max-width: 88%;
+    margin: 9rem 0;
+  }
+
+  &__text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 7rem;
+
+    @include respond(tab-land) {
+      padding: 5rem;
+    }
+
+    @include respond(tab-port) {
+      text-align: center;
+      padding: 7rem;
+    }
+
+    @include respond(tab-port) {
+      text-align: center;
+      padding: 5rem;
+    }
+
+    @include respond(phone) {
+      padding: 3rem;
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 85%;
+    // padding-top: 1.2rem;
+
+    @include respond(tab-land) {
+      width: 100%;
+    }
+  }
+
+  &__stat {
+    margin-top: 7rem;
+
+    @include respond(tab-land) {
+      margin-top: 6rem;
+    }
+
+    @include respond(phone-mid) {
+      display: flex;
+      flex-direction: column;
+      margin-top: 4rem;
+    }
+  }
+
+  &__stat ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    li {
+      list-style: none;
+
+      @include respond(phone-mid) {
+        margin-bottom: 1.6rem;
+      }
+    }
+
+    @include respond(tab-port) {
+      justify-content: space-around;
+    }
+
+    @include respond(phone-mid) {
+      flex-direction: column;
+      width: 100%;
+    }
+  }
+
+  &__img-box {
+    background-color: $accent;
+    position: relative;
+  }
+
+  &__img {
+    height: 100%;
+    mix-blend-mode: multiply;
+
+    &--desktop {
+      @include respond(tab-port) {
+        display: block;
+        width: 100%;
+      }
+
+      @include respond(phone-mid) {
+        display: none;
+      }
+    }
+
+    &--mobile {
+      display: none;
+
+      @include respond(phone-mid) {
+        display: block;
+        width: 100%;
+      }
+    }
+  }
+
+  .pink {
+    background-color: $accent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.25;
+  }
+}

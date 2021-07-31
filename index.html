@@ -27,46 +27,53 @@
     <title>Frontend Mentor | Stats preview card component</title>
   </head>
   <body>
-    <div class="card">
-      <figure class="figure figure__desktop">
-        <img
-          src="images/image-header-desktop.jpg"
-          alt="Card Image"
-          class="figure__img--desktop"
-        />
-      </figure>
-      <figure class="figure figure__mobile">
-        <img
-          src="images/image-header-mobile.jpg"
-          alt="Card Image"
-          class="figure__img--mobile"
-        />
-      </figure>
-      <div class="card__text-container">
-        <h1 class="heading-primary u-padding-bottom-small">
-          Get <span class="heading-primary--color-voilet">insights</span> that
-          help your business grow.
-        </h1>
-        <p class="heading-tertiary u-padding-bottom-big">
-          Discover the benefits of data analytics and make better decisions
-          regarding revenue, customer experience, and all overall efficiency.
-        </p>
-        <ul class="stats">
-          <li>
-            <h2 class="heading-secondary">10k+</h2>
-            <p class="heading-tertiary">companies</p>
-          </li>
-          <li>
-            <h2 class="heading-secondary">314</h2>
-            <p class="heading-tertiary">templates</p>
-          </li>
-          <li>
-            <h2 class="heading-secondary">12M+</h2>
-            <p class="heading-tertiary">queries</p>
-          </li>
-        </ul>
+    <div class="container">
+      <div class="card">
+        <div class="card__text-box">
+          <div class="card__content">
+            <h1>
+              Get
+              <span>insights</span> that help your business grow.
+            </h1>
+            <p>
+              Discover the benefits of data analytics and make better decisions
+              regarding revenue, customer experience, and all overall
+              efficiency.
+            </p>
+            <div class="card__stat">
+              <ul>
+                <li>
+                  <h2>10k+</h2>
+                  <p class="stat-name">COMPANIES</p>
+                </li>
+                <li>
+                  <h2>314</h2>
+                  <p class="stat-name">TEMPLATES</p>
+                </li>
+                <li>
+                  <h2>12M+</h2>
+                  <p class="stat-name">QUERIES</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card__img-box">
+          <img
+            src="images/image-header-desktop.jpg"
+            alt="Office Image"
+            class="card__img card__img--desktop"
+          />
+          <img
+            src="images/image-header-mobile.jpg"
+            alt="Office Image"
+            class="card__img card__img--mobile"
+          />
+          <div class="pink"></div>
+        </div>
       </div>
     </div>
+
     <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
